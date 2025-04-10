@@ -6,6 +6,8 @@
 ### Project Title
 Bikeshare Project 
 
+### Project Description
+Programming for Data Science with Python
 
 ### Description
 In this project bikeshare data from three US cities - Chicago, Washington, and New York City is analysed. Various Python libraries are used to perform descriptive analysis.
