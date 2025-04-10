@@ -27,7 +27,6 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Please enter day of week (all, monday, tuesday, ... sunday):')
 
-
     print('-'*40)
     return city, month, day
 
@@ -53,7 +52,7 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day_name()
 
-    # filter by month if applicable
+    # filter by month when applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
         months = ['january', 'february', 'march', 'april', 'may', 'june']
@@ -161,7 +160,7 @@ def user_stats(df):
 def print_rows(df):
     more_data=input('Do you want to see 5 lines of raw data(yes/no)?').lower()
     i =0
-    while(more_data=='yes'): 
+    while(more_data.lower()=='yes'): 
         print(df[i:i+5])
         i=i+5
         more_data=input('Do you want to see 5 lines of raw data(yes/no)?').lower()
