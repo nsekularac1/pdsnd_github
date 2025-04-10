@@ -4,10 +4,11 @@
 04/09/2025
 
 ### Project Title
-Bikeshare Project
+Bikeshare Project 
+
 
 ### Description
-In this project bikeshare data from three US cities - Chicago, Washington, and New York City is analysed. Various Python libraries are used to perform descptive analysis.  
+In this project bikeshare data from three US cities - Chicago, Washington, and New York City is analysed. Various Python libraries are used to perform descriptive analysis.
 
 ### Files used
 bikeshare.py
