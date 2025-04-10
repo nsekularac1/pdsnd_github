@@ -160,7 +160,7 @@ def user_stats(df):
 def print_rows(df):
     more_data=input('Do you want to see 5 lines of raw data(yes/no)?').lower()
     i =0
-    while(more_data=='yes'): 
+    while(more_data.lower()=='yes'): 
         print(df[i:i+5])
         i=i+5
         more_data=input('Do you want to see 5 lines of raw data(yes/no)?').lower()
